@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    color: white;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: inline-block;
+    background-color: rgb(61, 61, 61); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button,input{
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);
+}
+
+body > button{
+    width: 180px;
+    height: 80px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);
+    margin: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+label{
+    color: black;
+} 
+
+form {
+    display: grid;
+    gap: 10px;
+}
+#closeModal {
+    margin-top: 10px;
+}
+
+dialog {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 50%);
+}
+
+section {
+    background-color: rgb(31, 31, 31);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 80%);
+}
+
+.claro {
+    background-color: white;
+}
+
+h1:hover,h2:hover {
+    transform: scale(1.10);
+    transition: 0.10s;
+    cursor: pointer;
+}
